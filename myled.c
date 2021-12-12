@@ -31,7 +31,12 @@ static ssize_t led_write(struct file* flip, const char* buf, size_t count, loff_
 	   gpio_base[10] = 1 << 25;
 	}else if(c == '1'){
 	   gpio_base[7] = 1 << 25;
+	}	if(c== '2'){
+	   gpio_base[10] = 1 << 25;
+	}else if(c == '3'){
+	   gpio_base[7] = 1 << 25;
 	}
+
 	
 
 	return 1;
