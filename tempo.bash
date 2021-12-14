@@ -17,3 +17,6 @@ count=0
 		count=`expr 1 + $count`
 		echo $count回
 	done
+
+
+		echo 2 > /dev/myled0
