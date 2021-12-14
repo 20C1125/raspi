@@ -36,4 +36,3 @@ $ bash tempo.bash
 https://youtu.be/md04uxYqe_Q
 
 # ライセンス
-COPYING
