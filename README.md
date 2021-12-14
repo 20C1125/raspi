@@ -33,4 +33,4 @@ $ bash tempo.bash
 回数を表示しながらチカチカ光る  
 
 # 動画
-https://youtu.be/W4fhrZBRjdI  
+https://youtu.be/md04uxYqe_Q
