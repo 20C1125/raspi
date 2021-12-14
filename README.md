@@ -15,10 +15,10 @@ $ sudo rmmod myled
 $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0
 
- ・LEDを片方だけつける場合
+ ## LEDを片方だけつける場合
  
 $ echo 1 > /dev/myled0  もしくは　$ echo 3 > /dev/myled0
-消すときは１で点いたほうは代わりに0\n
+消すときは１で点いたほうは代わりに0
 3で点いたほうは2で消える
 消すのは
 0 2
