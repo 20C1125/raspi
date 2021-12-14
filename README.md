@@ -34,3 +34,5 @@ $ bash tempo.bash
 
 # 動画
 https://youtu.be/md04uxYqe_Q
+
+# ライセンス
