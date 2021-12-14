@@ -4,17 +4,17 @@
 授業動画を参考にLEDの追加とバッシュファイルで少しの遊びを入れた
 
 # 使用したもの
-ラズパイ３　B+　と書かれていた
-ブレッドボード
-LED ジャンパー線
-抵抗　240Ω
-
+ラズパイ３　B+   
+ブレッドボード  
+LED ジャンパー線  
+抵抗　240Ω  
+  
 # 使い方
-$ make 
-$ sudo rmmod myled  
-$ sudo insmod myled.ko
-$ sudo chmod 666 /dev/myled0
-
+$ make   
+$ sudo rmmod myled    
+$ sudo insmod myled.ko  
+$ sudo chmod 666 /dev/myled0  
+  
  ・LEDを片方だけつける場合
  
 $ echo 1 > /dev/myled0  もしくは　$ echo 3 > /dev/myled0  
@@ -26,8 +26,8 @@ $ echo 1 > /dev/myled0  もしくは　$ echo 3 > /dev/myled0
 1 3  
 
 
- ・2つのLEDを使ったつく回数と切り替わる時間をコントロールするプログラム
-
-$ bash tempo.bash
-回数と切り替わりの時間を聞かれるので入力すると
-回数を表示しながらチカチカ光る
+ ・2つのLEDを使ったつく回数と切り替わる時間をコントロールするプログラム  
+  
+$ bash tempo.bash  
+回数と切り替わりの時間を聞かれるので入力すると  
+回数を表示しながらチカチカ光る  
