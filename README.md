@@ -31,3 +31,6 @@ $ echo 1 > /dev/myled0  もしくは　$ echo 3 > /dev/myled0
 $ bash tempo.bash  
 回数と切り替わりの時間を聞かれるので入力すると  
 回数を表示しながらチカチカ光る  
+
+# 動画
+https://youtu.be/W4fhrZBRjdI  
