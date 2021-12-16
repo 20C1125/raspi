@@ -10,7 +10,7 @@ LED ジャンパー線
 抵抗　240Ω  
 
 # 回路図  
-
+https://user-images.githubusercontent.com/95160686/146348393-3543b2cd-0b34-4897-8859-3f2edefb98ff.png
 # 使い方
 $ make   
 $ sudo rmmod myled    
