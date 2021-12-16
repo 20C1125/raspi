@@ -8,18 +8,21 @@
 ブレッドボード  
 LED ジャンパー線  
 抵抗　240Ω  
-  
+
+# 回路図  
+
 # 使い方
 $ make   
 $ sudo rmmod myled    
 $ sudo insmod myled.ko  
 $ sudo chmod 666 /dev/myled0  
-  
+ここで準備完了  
+
  ・LEDを片方だけつける場合
  
-$ echo 1 > /dev/myled0  もしくは　$ echo 3 > /dev/myled0  
-消すときは１で点いたほうは代わりに0  
-3で点いたほうは2で消える  
+$ echo 1 > /dev/myled0 　
+$ echo 3 > /dev/myled0  
+消すときは１で点いたほうは代わりに0 3で点いたほうは2で消える  
 消すのは  
 0 2  
 つけるのは  
