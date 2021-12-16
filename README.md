@@ -23,7 +23,7 @@ $ sudo chmod 666 /dev/myled0
 LED 1 は $ echo 1 > /dev/myled0  
 LED 2 は $ echo 3 > /dev/myled0    
 消すとき  
-LED 1 は $ echo 0 > /dev/myled0     　
+LED 1 は $ echo 0 > /dev/myled0  
 LED 2 は $ echo 2 > /dev/myled0      
 
 
