@@ -20,11 +20,11 @@ $ sudo chmod 666 /dev/myled0
 
  ・LEDを片方だけつける場合
  
-LED 1 は $ echo 1 > /dev/myled0  　　
-LED 2 は $ echo 3 > /dev/myled0  
+LED 1 は $ echo 1 > /dev/myled0  
+LED 2 は $ echo 3 > /dev/myled0    
 消すとき  
-LED 1 は $ echo 0 > /dev/myled0   　
-LED 2 は $ echo 2 > /dev/myled0    
+LED 1 は $ echo 0 > /dev/myled0     　
+LED 2 は $ echo 2 > /dev/myled0      
 
 
  ・2つのLEDを使ったつく回数と切り替わる時間をコントロールするプログラム  
