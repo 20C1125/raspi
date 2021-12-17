@@ -54,6 +54,4 @@ https://youtu.be/md04uxYqe_Q
 
 # ライセンス  
 GNU General Public License v3.0  
-リンク↓  
-https://github.com/my9918/task_1/blob/master/COPYING　　
 
