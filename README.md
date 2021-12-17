@@ -54,4 +54,4 @@ https://youtu.be/md04uxYqe_Q
 
 # ライセンス  
 GNU General Public License v3.0  
-
+COPYING参照  
