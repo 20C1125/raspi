@@ -12,6 +12,9 @@ LED ジャンパー線
 # 回路図  
 ![回路図](https://user-images.githubusercontent.com/95160686/146348393-3543b2cd-0b34-4897-8859-3f2edefb98ff.png)
 # 使い方
+インストール  
+$ git clone git@github.com:my9918/task_1.git  
+$ cd task_1  
 $ make   
 $ sudo rmmod myled    
 $ sudo insmod myled.ko  
