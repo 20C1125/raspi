@@ -36,6 +36,18 @@ $ bash tempo.bash
 回数と切り替わりの時間を聞かれるので入力すると  
 回数を表示しながら交互に光る  
 
+  
+アンインストール  
+$ sodo rmmod myled  
+  
+インストール時の初期状態に戻したいとき  
+$ make clean  
+全部削除  
+$ cd -  
+$ rm -rf task_1  
+
+  
+  
 # 動画
 https://youtu.be/md04uxYqe_Q
 
