@@ -6,7 +6,7 @@
 #include <linux/io.h>
 
 
-MODULE_AUTHOR("Yamazaki Masamitsu");
+MODULE_AUTHOR("Ryuichi Ueda & Yamazaki Masamitsu");
 MODULE_DESCRIPTION("drive for LED control");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("0.0.1");
