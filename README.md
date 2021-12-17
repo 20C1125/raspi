@@ -36,5 +36,7 @@ $ bash tempo.bash
 # 動画
 https://youtu.be/md04uxYqe_Q
 
-# ライセンス
+# ライセンス  
+GPL 3.0  
+リンク↓　　
 https://github.com/my9918/task_1/blob/master/COPYING　　
